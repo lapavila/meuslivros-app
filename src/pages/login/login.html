@@ -1,0 +1,31 @@
+<ion-content>
+  <div style="text-align: center; width: 100% !important;">
+    &nbsp;
+  </div>
+  <div style="text-align: center; width: 100% !important;">
+    &nbsp;
+  </div>
+  <div class="cinza" style="text-align: center; width: 100% !important;">
+    <img src="assets/imgs/gujavasc.png" style="width: 150px;" />
+  </div>
+  <div style="text-align: center; width: 100% !important;">
+    &nbsp;
+  </div>
+  <div style="text-align: center; width: 100% !important;">
+    &nbsp;
+  </div>
+  <form action=".">
+
+    <div padding>
+      <ion-item>
+        <ion-input placeholder="Usuário" [(ngModel)]="username" name="username" type="text" autocomplete="off" autocorrect="off"
+          autocapitalize="none"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Senha" type="password" name="password" [(ngModel)]="password"></ion-input>
+      </ion-item>
+      <button ion-button primary block (tap)="login()">Entrar</button>
+    </div>
+
+  </form>
+</ion-content>
